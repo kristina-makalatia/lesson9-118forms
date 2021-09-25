@@ -1,0 +1,92 @@
+/* form */
+.form-wraper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+/* .input-form[type=text] {
+    background-color: red;
+}
+.input-form[type=password] {
+    background-color: blue;
+} */
+.input-form {
+    max-width: 700px;
+    width: 100%;
+    height: 60px;
+    /* background-color:chartreuse; */
+    color: red;
+    font-size: 18px;
+    /* text-transform: uppercase; */
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: none;
+    border-bottom: 2px solid blue;
+}
+.input-form:focus,
+.textarea-form:focus {
+    outline: none;
+}
+.textarea-form {
+    max-width: 700px;
+    width: 100%;
+    height: 200px;
+    resize: none;
+    background-color: cyan;
+    color:darkorchid;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.btn-send {
+    width: 250px;
+    height: 60px;
+    background-color:deepskyblue;
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+}
+
+.input-form::-webkit-input-placeholder, .textarea-form::-webkit-input-placeholder{
+    color:firebrick;
+    font-size: 14px;
+}
+
+.input-form::-moz-placeholder, .textarea-form::-moz-placeholder{
+    color:firebrick;
+    font-size: 14px;
+}
+
+.input-form:-ms-input-placeholder, .textarea-form:-ms-input-placeholder{
+    color:firebrick;
+    font-size: 14px;
+}
+
+.input-form::-ms-input-placeholder, .textarea-form::-ms-input-placeholder{
+    color:firebrick;
+    font-size: 14px;
+}
+
+.input-form::placeholder,
+.textarea-form::placeholder{
+    color:firebrick;
+    font-size: 14px;
+}
+
+.form-block-wraper {
+    margin-left: 50px;
+}
+
+
+@media (max-width: 480px) {
+    .textarea-form {
+        background-color: fuchsia;
+    }
+}
+
+
+
+.form-wraper{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}.input-form{max-width:700px;width:100%;height:60px;color:red;font-size:18px;margin-top:15px;margin-bottom:15px;border:none;border-bottom:2px solid #00f}.input-form:focus,.textarea-form:focus{outline:0}.textarea-form{max-width:700px;width:100%;height:200px;resize:none;background-color:#0ff;color:#9932cc;margin-top:15px;margin-bottom:15px}.btn-send{width:250px;height:60px;background-color:#00bfff;border:none;border-radius:25px;color:#fff}.input-form::-webkit-input-placeholder,.textarea-form::-webkit-input-placeholder{color:#b22222;font-size:14px}.input-form::-moz-placeholder,.textarea-form::-moz-placeholder{color:#b22222;font-size:14px}.input-form:-ms-input-placeholder,.textarea-form:-ms-input-placeholder{color:#b22222;font-size:14px}.input-form::-ms-input-placeholder,.textarea-form::-ms-input-placeholder{color:#b22222;font-size:14px}.input-form::placeholder,.textarea-form::placeholder{color:#b22222;font-size:14px}.form-block-wraper{margin-left:50px}@media (max-width:480px){.textarea-form{background-color:#f0f}}
